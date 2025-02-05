@@ -5,12 +5,7 @@ st.set_page_config(
     page_icon=r"shaped-logo.png"
 )
 
-# Load css from assets
-def load_css(file_path):
-    with open(file_path) as f:
-        st.html(f"<style>{f.read()}</style>")
-css_path = pathlib.Path("assets.css")
-load_css(css_path)
+
 
 # Hide all unneeded parts of streamlit:
 hide_streamlit_style = """
