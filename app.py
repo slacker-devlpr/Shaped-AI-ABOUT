@@ -61,6 +61,6 @@ enable_scroll = """
 </style>
 """
 st.markdown(enable_scroll, unsafe_allow_html=True)
-st.title("This is the old domain of ShapedAI")
+st.title("This is the old domain of AnkaAI")
 
-st.link_button("Go to ShapedAI", "https://shaped-ai.streamlit.app")
+st.link_button("Go to AnkaAI", "https://anka-ai.streamlit.app")
