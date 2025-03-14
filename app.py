@@ -62,6 +62,6 @@ enable_scroll = """
 """
 st.markdown(enable_scroll, unsafe_allow_html=True)
 st.title("Renaming to AnkaAI!")
-st.write("Due to trademark reasons, we have rebranded from Shaped AI to Anka AI. While our name has changed, our mission and commitment to innovation remain the same. Thank you for your support as we continue to grow under our new identity!")
+st.write("Due to trademark reasons, we have rebranded from ShapedAI to AnkaAI. While our name has changed, our mission and commitment to innovation remain the same. Thank you for your support as we continue to grow under our new identity!")
 
 st.link_button("Go to AnkaAI", "https://anka-ai.streamlit.app", use_container_width=True)
