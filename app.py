@@ -1,7 +1,7 @@
 import streamlit as st
 # Page config:
 st.set_page_config(
-    page_title="Shaped AI, Home",
+    page_title="ShapedAI, old",
     page_icon=r"Anka (7).png"
 )
 
@@ -61,3 +61,6 @@ enable_scroll = """
 </style>
 """
 st.markdown(enable_scroll, unsafe_allow_html=True)
+st.title("This is the old domain of ShapedAI")
+
+st.link_button("Go to ShapedAI", "https://shaped-ai.streamlit.app")
